@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Body -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M10,28 L54,28 L54,36 L10,36 Z" />
+
+    <!-- Wings -->
+    <path
+        android:fillColor="#AA0000"
+        android:pathData="M16,20 L24,20 L24,44 L16,44 Z" />
+    <path
+        android:fillColor="#AA0000"
+        android:pathData="M40,20 L48,20 L48,44 L40,44 Z" />
+
+    <!-- Nose -->
+    <path
+        android:fillColor="#FF5555"
+        android:pathData="M54,28 L60,32 L54,36 Z" />
+
+    <!-- Tail -->
+    <path
+        android:fillColor="#880000"
+        android:pathData="M10,28 L6,24 L6,40 L10,36 Z" />
+</vector>
